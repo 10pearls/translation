@@ -48,7 +48,7 @@ class FileLoaderCommand extends Command
      *
      *  @return void
      */
-    public function handle()
+    public function fire()
     {
         $this->loadLocaleDirectories($this->path);
     }
